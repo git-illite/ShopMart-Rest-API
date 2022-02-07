@@ -1,3 +1,12 @@
+/*********************************************************************************
+* WEB422 – Assignment 01
+*
+* Online (Heroku) Link: https://sleepy-tor-24874.herokuapp.com//
+*                       https://git.heroku.com/sleepy-tor-24874.git
+*                       https://github.com/git-illite/ShopMart-Rest-API
+*
+********************************************************************************/
+
 const express = require("express");
 const mongoose = require("mongoose")
 const custController = require("./controllers/CustController.js")
