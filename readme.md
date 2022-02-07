@@ -54,6 +54,6 @@ The above end point returns a short term property based on the id provided.
 
 The above end point updates a short term property based on the id provided, the input is validated and proper errors messages are returned.
 
-### DELETE /superheroes/id
+### DELETE /shortprop/id
 
 The above end point removes/deletes an existing short term property based on the id provided.
