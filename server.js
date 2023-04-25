@@ -13,10 +13,11 @@ const custController = require("./controllers/CustController.js")
 const shortPropController = require("./controllers/ShortPropController.js")
 
 require('dotenv').config({ path: 'config/keys.env' });
-
+var cors = require('cors')
 const app = express();
 
 app.use(express.json());
+app.use(cors())
 app.use("/customers",custController)
 app.use("/shortprop",shortPropController)
 
